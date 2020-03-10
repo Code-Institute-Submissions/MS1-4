@@ -1,32 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Belleza&display=swap');
+
 body {
     padding-top: 0rem;
     padding-bottom: 0rem;
     color: #5a5a5a;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant Garamond', serif;
+}
 
+/*------------------------------------------------------------------------ Colours */
 
-/*------------------------------------------- Colours */
+.text-navy {
+    color: #2e3c72;
+}
 
+.btn-outline-navy {
+    border-color: #2e3c72;
+}
 
-
-
-
-/*------------------------------------------- Special paddings/margins/text */
-
-.z-index {
-    z-index: 1;
+.btn-outline-navy:hover,
+.btn-outline-navy:focus,
+.btn-outline-navy:active,
+.btn-outline-navy.active,
+.open>.dropdown-toggle.btn-outline-navy {
+    color: #fff;
+    background-color: #2e3c72;
+    border-color: #2e3c72;
+    /*set the color you want here*/
 }
 
 
+/*---------------------------------------------------------------------------- Nav */
+
+.nav-font {
+    font-family: 'Belleza', sans-serif;
+    letter-spacing: 2px;
+}
+
+/* =========== Hover Drop Down =========== Src: https://codepen.io/beetnk/pen/LdVJBa  */
+
+.dropdown>.dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+    top: 100%;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.dropdown-hover-navy {
+    color: white;
+}
+
+.dropdown-hover-navy:hover {
+    color: #2e3c72;
+}
+
+/*----------------------------------------------- Special paddings/margins/text/images */
+
+.lower-nav-z-index {
+    z-index: 1;
+}
+
+.upper-nav-z-index {
+    z-index: 2000;
+    margin-bottom: 0px;
+}
+
+.book-button {
+    margin-top: 20px;
+}
+
+.our-story {
+    margin-bottom: 10em;
+}
+
+.lh-3 {
+    line-height: 1.7em;
+}
+
+
+.letter-spacing {
+    letter-spacing: 1.5px;
+}
+
+.link {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+a {
+    color: #5a5a5a;
+    transition: transform .2s;
+}
+
+a:hover {
+    color: #2e3c72;
+    text-decoration: none;
+}
+
+
+/*---------------------------------------------------------------- Image / Adjustments */
+
+
+.underline {
+    width: 50%;
+}
+
+.feature {
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.cover {
+    height: 80vh;
+    overflow: auto;
+    position: relative;
+    background-image: url(../images/booking-section-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+/* =============== Rotating Image =============== Src: https://jsfiddle.net/gionaf/Ugc5g/ */
+.circle {
+    position: absolute;
+    left: 23%;
+    width: 180px;
+    height: 180px;
+    margin: -90px 0 0 -90px;
+    -webkit-animation: spin 10s linear infinite;
+    -moz-animation: spin 10s linear infinite;
+    animation: spin 10s linear infinite;
+    z-index: 2000;
+}
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
 
 /*------------------------------------------- Heading */
 
 .jumbotron {
     height: 90vh;
     z-index: 100;
-    margin-top: -75px;
-    margin-bottom: 10em;
+    margin-top: -100px;
+    margin-bottom: 7em;
     position: relative;
     background-image: url(../images/blue-room-hero-image.jpg);
     background-repeat: no-repeat;
@@ -52,8 +201,8 @@ body {
     background-position: center center;
 }
 
-.book-button {
-    margin-top: 20px;
+.bg-transparent {
+    background: transparent;
 }
 
 .map-responsive {
@@ -75,15 +224,151 @@ body {
     background: transparent;
 }
 
-.z-front {
-    z-index: 2000;
-    margin-bottom: 0px;
+
+/*------------------------------------------- Booking Section */
+
+
+/* Solution for curved border edge remove https://stackoverflow.com/questions/5780109/removing-rounded-corners-from-a-select-element-in-chrome-webkit */
+
+select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
 }
+
+/* ----------------------------- */
+
+
+.booking-background {
+    background-color: white;
+    max-width: 1110px;
+    margin: auto;
+}
+
+.opening-hours {
+    max-width: 1110px;
+    margin: auto;
+}
+
+.form-control {
+    color: rgba(90, 90, 90, .9);
+}
+
+.form-control:focus {
+    border-color: #FFFFFF;
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 2px #80a7ce;
+    color: rgba(90, 90, 90, .9);
+
+}
+
+.light-blue {
+    color: #80a7ce;
+}
+
+
 
 /*------------------------------------------- Footer */
 
+.translate-y {
+    transition: transform .2s ease-in-out;
+}
 
-
+.translate-y:hover {
+    transform: translateY(-5px);
+}
 
 
 /*------------------------------------------- Media Queries */
+
+@media (min-width: 62em) {
+    .article-heading {
+        margin-top: 7rem;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .hero-logo {
+        margin-top: 10%;
+    }
+
+    .upper-nav-z-index {
+        display: none;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0, 0, 0, .5);
+        font-size: 16px;
+        padding-right: 0;
+        margin-right: 0;
+    }
+
+    .navbar-logo {
+        height: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+    .lower-nav-z-index {
+        z-index: 200;
+    }
+
+    .upper-nav-z-index {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .book-button {
+        margin-top: 50px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1em;
+    }
+
+    .hero-logo {
+        margin-top: 20%;
+        /* padding-bottom: 2em; */
+    }
+
+    .jumbotron {
+        height: 650px;
+    }
+
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        width: 100%;
+    }
+
+    .navbar-logo {
+        height: 40px;
+    }
+}
+
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .lower-nav-z-index {
+        z-index: 200;
+    }
+
+    .upper-nav-z-index {
+        display: none;
+    }
+
+    .hero-logo {
+        margin-top: 40vh;
+    }
+}

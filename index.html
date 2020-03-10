@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark navbar-trans z-front">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent upper-nav-z-index">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                     aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,10 +35,11 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Our Menus
                             </a>
-                            <div class="dropdown-menu navbar-trans border-0 rounded-0" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item text-right font-white" href="#">Breakfast</a>
-                                <a class="dropdown-item text-right font-white" href="#">Lunch</a>
-                                <a class="dropdown-item text-right font-white" href="#">Dinner</a>
+                            <div class="dropdown-menu bg-transparent border-0 rounded-0"
+                                aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-right dropdown-hover-navy" href="#">Breakfast</a>
+                                <a class="dropdown-item text-right dropdown-hover-navy" href="#">Lunch</a>
+                                <a class="dropdown-item text-right dropdown-hover-navy" href="#">Dinner</a>
                             </div>
                         </li>
 
@@ -54,6 +55,51 @@
             </div>
         </nav>
 
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white lower-nav-z-index">
+            <div class="container-fluid">
+                <a class="navbar-brand mt-1" href="#"><img class="navbar-logo" src="assets/images/logo.svg"
+                        alt="logo"></a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto nav-font text-uppercase">
+                        <li class="nav-item mr-4 text-right mt-1">
+                            <a class="nav-link" href="#">Our Story<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item text-right mr-3 mt-1">
+                            <a class="nav-link" href="#">Book A Table</a>
+                        </li>
+                        <li class="nav-item dropdown mr-3 text-right mt-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Our Menus
+                            </a>
+                            <div class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-right" href="#">Breakfast</a>
+                                <a class="dropdown-item text-right" href="#">Lunch</a>
+                                <a class="dropdown-item text-right" href="#">Dinner</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-3 text-right mt-1">
+                            <a class="nav-link" href="#">Events</a>
+                        </li>
+                        <li class="nav-item mr-3 text-right mt-1">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <!--------------------------------------------- Jumbotron/Hero ---------------------------------->
+
         <div class="jumbotron jumbotron-fluid">
             <img class="hero-logo" src="assets/images/hero_logo.svg" alt="logo">
             <div class="col text-center">
@@ -61,33 +107,303 @@
                     Table</button>
             </div>
         </div>
-    </header>
 
-    <main role="main">
         <!--------------------------------------------- Our Story Section ------------------------------>
 
         <section>
-            <article>
-
+            <article class="container text-center our-story">
+                <h2 class="h1 mb-3 text-uppercase text-navy display-4">Our Story</h2>
+                <img class="underline mb-2 col-md-3" src="assets/images/underline.svg" alt="Underline">
+                <h1 class="h3 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Repudiandae dignissimos
+                    molestias.</h1>
+                <p class="lead lh-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dignissimos
+                    molestias
+                    voluptate odit architecto, veniam dolores! Porro velit iste esse fuga dignissimos! Optio ad amet
+                    laborum ducimus alias quae ipsa beatae libero, molestiae iste ea facere consequuntur ex?
+                    Exercitationem inventore veritati.
+                </p>
+                <p class="lead lh-3">Ut distinctio, facilis itaque aut aperiam ipsam hic
+                    sed quam. Quae inventore dolore quia, sequi, fugit illum harum doloribus voluptatibus ipsa
+                    architecto, fuga praesentium quam! Est nam corrupti reiciendis facere tempore libero dolores
+                    explicabo dicta, quisquam omnis ullam ea nostrum, molestias officia asperiores. Animi ex omnis
+                    quisquam officia.
+                </p>
             </article>
-            <article>
-
+            <article class="container">
+                <div class="row mb-5">
+                    <img class="circle mb-2" src="assets/images/circle.svg" alt="Rotating Tagline">
+                    <div class="col-md-6">
+                        <img class="feature" alt="Restaurant Food Example" src="assets/images/our_chef.jpg">
+                    </div>
+                    <div class="col-md-6">
+                        <h2 class="article-heading h1 text-uppercase text-navy display-4">
+                            Our Chef
+                        </h2>
+                        <img class="underline mb-2" src="assets/images/underline_reverse.svg" alt="Underline">
+                        <p class="lead lh-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+                            dignissimos
+                            molestias
+                            voluptate odit architecto, veniam dolores! Porro velit iste esse fuga dignissimos! Optio ad
+                            amet
+                            laborum ducimus alias quae ipsa beatae libero, molestiae iste ea facere consequuntur ex?
+                            Exercitationem inventore veritati.
+                        </p>
+                        <p class="lead lh-3">Ut distinctio, facilis itaque aut aperiam ipsam hic
+                            sed quam. Quae inventore dolore quia, sequi, fugit illum harum doloribus voluptatibus ipsa
+                            architecto, fuga praesentium quam! Est nam corrupti reiciendis facere tempore libero dolores
+                            explicabo dicta, quisquam omnis ullam ea nostrum, molestias officia asperiores. Animi ex
+                            omnis
+                            quisquam officia.
+                        </p>
+                    </div>
+                </div>
             </article>
-            <article>
-
+            <article class="container">
+                <div class="row mb-5">
+                    <div class="col-md-6">
+                        <h2 class="article-heading h1 text-uppercase text-navy display-4">
+                            Our Food
+                        </h2>
+                        <img class="underline mb-2" src="assets/images/underline_reverse.svg" alt="Underline">
+                        <p class="lead lh-3">Lorem ipsum dolor sit
+                            amet, consectetur adipisicing elit. Repudiandae dignissimos
+                            molestias
+                            voluptate odit architecto, veniam dolores! Porro velit iste esse fuga dignissimos! Optio ad
+                            amet
+                            laborum ducimus alias quae ipsa beatae libero, molestiae iste ea facere consequuntur ex?
+                            Exercitationem inventore veritati.
+                        </p>
+                        <p class="lead lh-3">Ut distinctio, facilis itaque aut aperiam ipsam hic
+                            sed quam. Quae inventore dolore quia, sequi, fugit illum harum doloribus voluptatibus ipsa
+                            architecto.
+                        </p>
+                        <div class="row dropdown mb-4">
+                            <a class="btn btn-lg dropdown-toggle nav-font text-uppercase text-navy rounded-0" href="#"
+                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Our Menus
+                            </a>
+                            <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-left nav-font text-uppercase text-navy"
+                                    href="#">Breakfast</a>
+                                <a class="dropdown-item text-left nav-font text-uppercase text-navy" href="#">Lunch</a>
+                                <a class="dropdown-item text-left nav-font text-uppercase text-navy" href="#">Dinner</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="feature" alt="Restaurant Food Example" src="assets/images/our_food.jpg">
+                    </div>
+                </div>
             </article>
         </section>
 
         <!--------------------------------------------- Booking Section ------------------------------->
 
+        <section class="container-fluid cover mt-5">
+            <div class="row align-items-center h-100">
+                <div class="col-md-10 col-lg-10 mx-auto text-center">
+                    <form class="py-4 px-5 booking-background">
+                        <h2 class="h1 text-uppercase text-navy text-center display-4">Book A Table</h2>
+                        <img class="underline mb-2 col-md-4" src="assets/images/underline.svg" alt="Underline Image">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="fname"></label>
+                                <input type="text"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0" id="fname"
+                                    placeholder="First Name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="inputPassword4"></label>
+                                <input type="text"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0" id="lname"
+                                    placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="inputEmail"></label>
+                                <input type="email"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
+                                    id="inputEmail" placeholder="Email">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="pnumber"></label>
+                                <input type="text"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
+                                    id="pnumber" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-4">
+                                <label for="inputDate"></label>
+                                <input type="date"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
+                                    id="inputDate" placeholder="dd/mm/yyyy">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="time"></label>
+                                <select id="time"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0">
+                                    <option selected>Choose a time</option>
+                                    <optgroup label="Early Bird">
+                                        <option>5.00pm</option>
+                                        <option>5.30pm</option>
+                                        <option>6.00pm</option>
+                                        <option>6.30pm</option>
+                                    </optgroup>
+                                    <option disabled>———————————</option>
+
+                                    <option>7.00pm</option>
+                                    <option>7.30pm</option>
+                                    <option>8.00pm</option>
+                                    <option>8.30pm</option>
+                                    <option>9.00pm</option>
+                                    <option>9.30pm</option>
+                                    <option>10.00pm</option>
+                                    <option>10.30pm</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="inputPersons"></label>
+                                <select id="time"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0">
+                                    <option selected>Number of people</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                    <option>11</option>
+                                    <option>12</option>
+                                </select>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-outline-navy btn-lg text-uppercase nav-font rounded-0 text-navy mt-3">Book
+                            Now</button>
+                    </form>
+
+                    <div class="row py-5 text-white letter-spacing opening-hours">
+                        <div class="col-md-3 text-center text-uppercase">
+                            <h5>Monday</h5>
+                            <p>Closed for Events</p>
+                        </div>
+                        <div class="col-md-3 text-center text-uppercase">
+                            <h5>Tuesday - Friday</h5>
+                            <p>5pm to 11pm</p>
+                        </div>
+                        <div class="col-md-3 text-center text-uppercase">
+                            <h5>Saturday</h5>
+                            <p>9pm to 12.30am</p>
+                        </div>
+                        <div class="col-md-3 text-center text-uppercase">
+                            <h5>Sunday</h5>
+                            <p>12pm to 10pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------------- Map & Contact ----------------------------------------->
+
         <section>
+            <div class="container-fluid">
+                <div class="row h-100">
+                    <div class="col-md-6 col-lg-4 text-center mt-5 my-auto order-sm-12">
+                        <h2 class="h1 text-uppercase text-navy display-4 pt-5">Contact Us</h2>
+                        <img class="underline mb-4 col-md-5" src="assets/images/underline.svg" alt="Underline Image">
+                        <div class="col-md-12 mb-3"><a href="mailto:hello@bluenote.ie"
+                                class="h3 link">hello@bluenote.ie</a>
+                        </div>
+                        <div class="col-md-12"><a href="tel:+353 87 123 4567" class="h3 link">+353 87 123 4567</a>
+                        </div>
+                        <h3 class="mb-4 pt-4">High Street, Tralee, Co. Kerry</h3>
+                        <ul class="list-inline social-links pt-5">
+                            <li class="list-inline-item h3 pr-3">
+                                <a target="_blank" href="#">
+                                    <i class="fab fa-facebook-f text-navy translate-y" aria-hidden=" true"></i>
+                                    <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item h3 pr-3">
+                                <a target="_blank" href="#">
+                                    <i class="fab fa-instagram text-navy translate-y" aria-hidden=" true"></i>
+                                    <span class="sr-only">Instagram</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item h3 pr-3">
+                                <a target="_blank" href="#">
+                                    <i class="fab fa-twitter text-navy translate-y" aria-hidden=" true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item h3">
+                                <a target="_blank" href="#">
+                                    <i class="fab fa-youtube text-navy translate-y" aria-hidden=" true"></i>
+                                    <span class="sr-only">YouTube</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 col-lg-8 map-responsive order-sm-1">
+                        <iframe src="https://maps.google.com/maps?q=tralee%20kerry&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
+
+
+
         <!--------------------------------------------- Footer ----------------------------------------->
 
-        <footer>
-
+        <footer class="container-fluid pt-4 pb-1 bg-dark text-white text-xs-center">
+            <div class="row text-center">
+                <div class="col-md-4 text-md-left">
+                    <p class="px-4"><i class="fa fa-map-marker-alt" aria-hidden="true"></i><span>
+                            <small>&nbsp 125 Main Street, Tralee, Co. Kerry</small></span></p>
+                </div>
+                <div class="col-md-4 text-md-center">
+                    <ul class="list-inline social-links">
+                        <li class="list-inline-item h4">
+                            <a target="_blank" href="#">
+                                <i class="fab fa-facebook-f text-white pr-4 translate-y" aria-hidden=" true"></i>
+                                <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item h4">
+                            <a target="_blank" href="#">
+                                <i class="fab fa-instagram text-white pr-4 translate-y" aria-hidden=" true"></i>
+                                <span class="sr-only">Instagram</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item h4">
+                            <a target="_blank" href="#">
+                                <i class="fab fa-twitter text-white pr-4 translate-y" aria-hidden=" true"></i>
+                                <span class="sr-only">Twitter</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item h4">
+                            <a target="_blank" href="#">
+                                <i class="fab fa-youtube text-white translate-y" aria-hidden=" true"></i>
+                                <span class="sr-only">YouTube</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-md-right">
+                    <p class="px-4">&copy; <small> Blue Note 2020 | Site by JMc</small></p>
+                </div>
+            </div>
         </footer>
 
     </main>
