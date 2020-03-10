@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Belleza&display=swap');
 
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding-top: 0rem;
     padding-bottom: 0rem;
@@ -112,6 +117,19 @@ a:hover {
     text-decoration: none;
 }
 
+/* Fix navbar covering anchor section */
+
+#our-story::before {
+    height: 100px;
+    content: "";
+    display: block;
+}
+
+#booking-section::before {
+    height: 70px;
+    content: "";
+    display: block;
+}
 
 /*---------------------------------------------------------------- Image / Adjustments */
 
@@ -330,8 +348,10 @@ select {
         margin-top: 50px;
     }
 
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 1em;
+    .navbar-light .navbar-nav .nav-link,
+    .dropdown-item {
+        font-size: 14px;
+        padding: 15px 0;
     }
 
     .hero-logo {
@@ -359,11 +379,6 @@ select {
         overflow: hidden;
         position: relative;
         height: 50vh;
-    }
-
-    .navbar-light .navbar-nav .nav-link {
-        font-size: 12px;
-        padding: 0;
     }
 }
 
