@@ -120,7 +120,7 @@ a:hover {
 /* Fix navbar covering anchor section */
 
 #our-story::before {
-    height: 100px;
+    height: 80px;
     content: "";
     display: block;
 }
@@ -282,6 +282,26 @@ select {
     color: #80a7ce;
 }
 
+
+/*------------------------------------------- Events */
+
+/* Fix image responsiveness in cards Source: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width*/
+.embed-responsive {
+    object-fit: cover;
+}
+
+.arrow {
+    padding-right: 10px;
+}
+
+.arrow:hover {
+    padding-right: 20px;
+}
+
+.navy-border {
+    border-width: 2px;
+    border-color: #2e3c72;
+}
 
 
 /*------------------------------------------- Footer */
