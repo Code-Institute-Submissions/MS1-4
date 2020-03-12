@@ -51,7 +51,7 @@ h6 {
     letter-spacing: 2px;
 }
 
-/* =========== Hover Drop Down =========== Src: https://codepen.io/beetnk/pen/LdVJBa  */
+/* =========== Display dropdown on hover =========== Src: https://codepen.io/beetnk/pen/LdVJBa  */
 
 .dropdown>.dropdown-menu {
     top: 200%;
@@ -130,6 +130,18 @@ a:hover {
     content: "";
     display: block;
 }
+
+/* ----------------------------- */
+
+
+.translate-y {
+    transition: transform .2s ease-in-out;
+}
+
+.translate-y:hover {
+    transform: translateY(-5px);
+}
+
 
 /*---------------------------------------------------------------- Image / Adjustments */
 
@@ -225,9 +237,7 @@ a:hover {
 
 .map-responsive {
     overflow: hidden;
-    /* padding-bottom: 30vh; */
     position: relative;
-    /* height: 50vh; */
 }
 
 .map-responsive iframe {
@@ -283,7 +293,7 @@ select {
 }
 
 
-/*------------------------------------------- Events */
+/*------------------------------------------- Events Gallery */
 
 /* Fix image responsiveness in cards Source: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width*/
 .embed-responsive {
@@ -300,28 +310,40 @@ select {
 
 .navy-border {
     border-width: 2px;
-    border-color: #2e3c72;
+    border-color: #80a7ce;
+}
+
+.navy-border:hover {
+    border-width: 2px;
+    border-color: #80a7ce;
+}
+
+.page-link {
+    color: #80a7ce;
+}
+
+.page-link:hover {
+    color: #2e3c72;
 }
 
 
 /*------------------------------------------- Footer */
-
-.translate-y {
-    transition: transform .2s ease-in-out;
+.newsletter-signup {
+    background-color: #2e3c72;
 }
 
-.translate-y:hover {
-    transform: translateY(-5px);
+.newsletter-signup h3 {
+    color: #fff;
 }
+
+.newsletter-signup p {
+    color: rgba(255, 255, 255, .6);
+}
+
+/*------------------------------------------- Footer */
 
 
 /*------------------------------------------- Media Queries */
-
-@media (min-width: 62em) {
-    .article-heading {
-        margin-top: 7rem;
-    }
-}
 
 @media only screen and (max-width: 1350px) {
     .hero-logo {
