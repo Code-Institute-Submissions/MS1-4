@@ -12,6 +12,8 @@
 </head>
 
 <body>
+    <!--------------------------------------------- Header --------------------------------------------->
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent upper-nav-z-index">
             <div class="container-fluid">
@@ -37,18 +39,19 @@
                             </a>
                             <div class="dropdown-menu bg-transparent border-0 rounded-0"
                                 aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item text-right dropdown-hover-navy" href="#">Breakfast</a>
-                                <a class="dropdown-item text-right dropdown-hover-navy" href="#">Lunch</a>
-                                <a class="dropdown-item text-right dropdown-hover-navy" href="#">Dinner</a>
+                                <a class="dropdown-item text-right dropdown-hover-navy"
+                                    href="./breakfast.html">Breakfast</a>
+                                <a class="dropdown-item text-right dropdown-hover-navy" href="./lunch.html">Lunch</a>
+                                <a class="dropdown-item text-right dropdown-hover-navy" href="./dinner.html">Dinner</a>
                             </div>
                         </li>
 
                         <li class="nav-item mr-4 text-right mt-3">
-                            <a class="nav-link" href="/events.html">Events</a>
+                            <a class="nav-link" href="./events.html">Events</a>
                         </li>
 
                         <li class="nav-item mr-4 text-right mt-3">
-                            <a class="nav-link" href="/contact.html">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -57,7 +60,7 @@
 
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white lower-nav-z-index">
             <div class="container-fluid">
-                <a class="navbar-brand mt-1" href="#"><img class="navbar-logo" src="assets/images/logo.svg"
+                <a class="navbar-brand mt-1" href="index.html"><img class="navbar-logo" src="assets/images/logo.svg"
                         alt="logo"></a>
                 <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
                     data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
@@ -79,16 +82,16 @@
                                 Our Menus
                             </a>
                             <div class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item text-right" href="#">Breakfast</a>
-                                <a class="dropdown-item text-right" href="#">Lunch</a>
-                                <a class="dropdown-item text-right" href="#">Dinner</a>
+                                <a class="dropdown-item text-right" href="./breakfast.html">Breakfast</a>
+                                <a class="dropdown-item text-right" href="./lunch.html">Lunch</a>
+                                <a class="dropdown-item text-right" href="./dinner.html">Dinner</a>
                             </div>
                         </li>
                         <li class="nav-item mr-3 text-right mt-1">
-                            <a class="nav-link" href="/events.html">Events</a>
+                            <a class="nav-link" href="./events.html">Events</a>
                         </li>
                         <li class="nav-item mr-3 text-right mt-1">
-                            <a class="nav-link" href="/contact.html">Contact</a>
+                            <a class="nav-link" href="./contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -187,9 +190,11 @@
                             </a>
                             <div class="dropdown-menu border-0 pl-2 ml-2" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item text-left nav-font text-uppercase text-navy"
-                                    href="#">Breakfast</a>
-                                <a class="dropdown-item text-left nav-font text-uppercase text-navy" href="#">Lunch</a>
-                                <a class="dropdown-item text-left nav-font text-uppercase text-navy" href="#">Dinner</a>
+                                    href="./breakfast.html">Breakfast</a>
+                                <a class="dropdown-item text-left nav-font text-uppercase text-navy"
+                                    href="./lunch.html">Lunch</a>
+                                <a class="dropdown-item text-left nav-font text-uppercase text-navy"
+                                    href="./dinner.html">Dinner</a>
                             </div>
                         </div>
                     </div>
@@ -212,35 +217,35 @@
                             <div class="form-group col-md-6 pt-3">
                                 <input type="text"
                                     class="form-control border-top-0 border-right-0 border-left-0 rounded-0" id="fname"
-                                    placeholder="First Name">
+                                    placeholder="First Name" required>
                             </div>
                             <div class="form-group col-md-6 pt-3">
                                 <input type="text"
                                     class="form-control border-top-0 border-right-0 border-left-0 rounded-0" id="lname"
-                                    placeholder="Last Name">
+                                    placeholder="Last Name" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6 pt-3">
                                 <input type="email"
                                     class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
-                                    id="inputEmail" placeholder="Email">
+                                    id="inputEmail" placeholder="Email" required>
                             </div>
                             <div class="form-group col-md-6 pt-3">
                                 <input type="text"
                                     class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
-                                    id="pnumber" placeholder="Phone">
+                                    id="pnumber" placeholder="Phone" required>
                             </div>
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-4 pt-3">
                                 <input type="date"
                                     class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
-                                    id="inputDate" placeholder="dd/mm/yyyy">
+                                    id="inputDate" placeholder="dd/mm/yyyy" required>
                             </div>
                             <div class="form-group col-md-4 pt-3">
                                 <select id="time"
-                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0">
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0" required>
                                     <option selected>Choose a time</option>
                                     <optgroup label="Early Bird">
                                         <option>5.00pm</option>
@@ -262,7 +267,7 @@
                             </div>
                             <div class="form-group col-md-4 pt-3">
                                 <select id="time"
-                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0">
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0" required>
                                     <option selected>Number of people</option>
                                     <option>1</option>
                                     <option>2</option>
@@ -280,20 +285,20 @@
                             </div>
                         </div>
                         <button type="submit"
-                            class="btn btn-outline-navy btn-lg text-uppercase nav-font rounded-0 text-navy mt-3">Book
+                            class="btn btn-outline-navy btn-lg text-uppercase nav-font rounded-0 text-navy mt-3 mb-1">Book
                             Now</button>
                     </form>
-
+                    <h2 id="opening" class="h1 text-uppercase text-white text-center display-4 mb-4">Opening Hours</h2>
                     <div class="row pb-5 text-white letter-spacing opening-hours">
-                        <div class="col-md-3 text-center text-uppercase">
+                        <div class="col-md-3 text-center text-uppercase mb-3">
                             <h5>Monday</h5>
                             <p>Closed for Events</p>
                         </div>
-                        <div class="col-md-3 text-center text-uppercase">
+                        <div class="col-md-3 text-center text-uppercase mb-3">
                             <h5>Tuesday - Friday</h5>
                             <p>5pm to 11pm</p>
                         </div>
-                        <div class="col-md-3 text-center text-uppercase">
+                        <div class="col-md-3 text-center text-uppercase mb-3">
                             <h5>Saturday</h5>
                             <p>9pm to 12.30am</p>
                         </div>
@@ -320,7 +325,7 @@
                         <div class="col-md-12"><a href="tel:+353 87 123 4567" class="h3 link">+353 87 123 4567</a>
                         </div>
                         <h3 class="mb-4 pt-4">High Street, Tralee, Co. Kerry</h3>
-                        <ul class="list-inline social-links pt-5">
+                        <ul class="list-inline social-links pt-5 mb-4">
                             <li class="list-inline-item h3 pr-3">
                                 <a target="_blank" href="#">
                                     <i class="fab fa-facebook-f text-navy translate-y" aria-hidden=" true"></i>
@@ -353,7 +358,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
     </main>

@@ -13,6 +13,7 @@ body {
     color: #5a5a5a;
 }
 
+
 h1,
 h2,
 h3,
@@ -131,6 +132,10 @@ a:hover {
     display: block;
 }
 
+#contact-section {
+    padding-top: 5em;
+}
+
 /* ----------------------------- */
 
 
@@ -142,6 +147,30 @@ a:hover {
     transform: translateY(-5px);
 }
 
+/* =============== Lines before/after Opening Hour Text =============== Src: https://stackoverflow.com/questions/23584120/line-before-and-after-title-over-image */
+
+#opening {
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+    color: #5368b9;
+}
+
+#opening:before,
+#opening:after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 2px solid;
+}
+
+#opening:after {
+    margin: 0 -55% 0 .5em;
+}
 
 /*---------------------------------------------------------------- Image / Adjustments */
 
@@ -235,19 +264,6 @@ a:hover {
     background: transparent;
 }
 
-.map-responsive {
-    overflow: hidden;
-    position: relative;
-}
-
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-}
-
 .navbar-trans {
     background: transparent;
 }
@@ -328,6 +344,7 @@ select {
 
 
 /*------------------------------------------- Newsletter */
+
 .newsletter-signup {
     background-color: #2e3c72;
 }
@@ -353,8 +370,68 @@ select {
     margin-bottom: 6%;
 }
 
+/*------------------------------------------- Map */
+
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+#map {
+    height: 420px;
+}
+
+#map .row {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*------------------------------------------- Menu Page */
+
+
+.price {
+    float: right;
+}
+
+.menu-page-image {
+    height: 100vh;
+    position: fixed;
+    width: 50%;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.allergen {
+    border: 4px dotted #2e3c72;
+}
+
+.allergen h3 {
+    color: #2e3c72;
+}
+
+.allergen li {
+    color: #5a5a5a;
+    line-height: 1.8em;
+}
+
+
 /*------------------------------------------- Footer */
 
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
 
 /*------------------------------------------- Media Queries */
 
@@ -433,8 +510,10 @@ select {
     .map-responsive {
         overflow: hidden;
         position: relative;
-        height: 50vh;
+        height: 420px;
     }
+
+
 }
 
 
@@ -452,4 +531,16 @@ select {
     .hero-logo {
         margin-top: 40vh;
     }
+
+    .navbar-light .navbar-nav .nav-link,
+    .dropdown-item {
+        font-size: 16px;
+        padding: 15px 0;
+    }
+
+    #opening:before,
+    #opening:after {
+        border-bottom: 0px solid;
+    }
+
 }

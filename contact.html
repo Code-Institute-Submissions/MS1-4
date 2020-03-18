@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>The Blue Note</title>
+</head>
+
+<body>
+    <!--------------------------------------------- Header --------------------------------------------->
+
+    <header>
+
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white lower-nav-z-index">
+            <div class="container-fluid">
+                <a class="navbar-brand mt-1" href="index.html"><img class="navbar-logo" src="assets/images/logo.svg"
+                        alt="logo"></a>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ml-auto nav-font text-uppercase">
+                        <li class="nav-item mr-4 text-right mt-1">
+                            <a class="nav-link" href="#our-story">Our Story</a>
+                        </li>
+                        <li class="nav-item text-right mr-3 mt-1">
+                            <a class="nav-link" href="#booking-section">Book A Table</a>
+                        </li>
+                        <li class="nav-item dropdown mr-3 text-right mt-1">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Our Menus
+                            </a>
+                            <div class="dropdown-menu border-0 rounded-0" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item text-right" href="./breakfast.html">Breakfast</a>
+                                <a class="dropdown-item text-right" href="./lunch.html">Lunch</a>
+                                <a class="dropdown-item text-right" href="./dinner.html">Dinner</a>
+                            </div>
+                        </li>
+                        <li class="nav-item mr-3 text-right mt-1">
+                            <a class="nav-link" href="./events.html">Events</a>
+                        </li>
+                        <li class="nav-item mr-3 text-right mt-1">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main role="main">
+
+        <!--------------------------------------------- Hero Contact Section ------------------------------->
+
+        <section id="contact-section" class="container-fluid cover mt-5">
+            <div class="row align-items-center h-100">
+                <div class="col-md-10 col-lg-10 mx-auto text-center">
+                    <form class="py-4 px-5 my-5 booking-background">
+                        <h2 class="h1 text-uppercase text-navy text-center display-4">Contact Us</h2>
+                        <img class="underline mb-2 col-md-4" src="assets/images/underline.svg" alt="Underline Image">
+                        <p class="font-weight-lighter letter-spacing lead mt-3">Use the form below or give us a
+                            call
+                            on <wbr><a href="tel:+353 87 123 4567" class="text-navy"><em>+353 87 123 4567</a><wbr></em>
+                        </p>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 pt-3">
+                                <input type="text"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0" id="fname"
+                                    placeholder="First Name" required>
+                            </div>
+                            <div class="form-group col-md-6 pt-3">
+                                <input type="text"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0" id="lname"
+                                    placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6 pt-3">
+                                <input type="email"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
+                                    id="inputEmail" placeholder="Email" required>
+                            </div>
+                            <div class="form-group col-md-6 pt-3">
+                                <input type="text"
+                                    class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
+                                    id="pnumber" placeholder="Phone">
+                            </div>
+                        </div>
+                        <div class="form-row mt-4">
+                            <div class="form-group col-md-12">
+                                <textarea class="form-control rounded-0 pb-5" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="How can we help?" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit"
+                            class="btn btn-outline-navy btn-lg text-uppercase nav-font rounded-0 text-navy mt-3 mb-1">Send</button>
+                    </form>
+                    <h2 id="opening" class="h1 text-uppercase text-white text-center display-4 mb-4">Opening Hours</h2>
+                    <div class="row pb-5 text-white letter-spacing opening-hours">
+                        <div class="col-md-3 text-center text-uppercase mb-3">
+                            <h5>Monday</h5>
+                            <p>Closed for Events</p>
+                        </div>
+                        <div class="col-md-3 text-center text-uppercase mb-3">
+                            <h5>Tuesday - Friday</h5>
+                            <p>5pm to 11pm</p>
+                        </div>
+                        <div class="col-md-3 text-center text-uppercase mb-3">
+                            <h5>Saturday</h5>
+                            <p>9pm to 12.30am</p>
+                        </div>
+                        <div class="col-md-3 text-center text-uppercase mb-3">
+                            <h5>Sunday</h5>
+                            <p>12pm to 10pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--------------------------------------------- Map & Contact ----------------------------------------->
+
+        <section id="map">
+            <div class="row container-fluid h-100">
+                <div class="col-md-12 map-responsive">
+                    <iframe src="https://maps.google.com/maps?q=tralee%20kerry&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+    <!--------------------------------------------- Footer ----------------------------------------->
+
+    <footer class="container-fluid pt-4 pb-1 bg-dark text-white">
+        <div class="row text-center">
+            <div class="col-md-4 text-md-left">
+                <p class="px-4"><i class="fa fa-map-marker-alt" aria-hidden="true"></i><span>
+                        <small>&nbsp 125 Main Street, Tralee, Co. Kerry</small></span></p>
+            </div>
+            <div class="col-md-4 text-md-center">
+                <ul class="list-inline social-links">
+                    <li class="list-inline-item h4">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-facebook-f text-white pr-3 translate-y" aria-hidden=" true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item h4">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-instagram text-white pr-3 translate-y" aria-hidden=" true"></i>
+                            <span class="sr-only">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item h4">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-twitter text-white pr-3 translate-y" aria-hidden=" true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item h4">
+                        <a target="_blank" href="#">
+                            <i class="fab fa-youtube text-white translate-y" aria-hidden=" true"></i>
+                            <span class="sr-only">YouTube</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 text-md-right">
+                <p class="px-4">&copy; <small> Blue Note 2020 | Site by JMc</small></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
