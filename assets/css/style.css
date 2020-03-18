@@ -44,6 +44,10 @@ h6 {
     /*set the color you want here*/
 }
 
+.bg-white {
+    background-color: #ffffff;
+}
+
 
 /*---------------------------------------------------------------------------- Nav */
 
@@ -402,14 +406,6 @@ select {
     float: right;
 }
 
-.menu-page-image {
-    height: 100vh;
-    position: fixed;
-    width: 50%;
-    overflow: hidden;
-    z-index: -100;
-}
-
 .allergen {
     border: 4px dotted #2e3c72;
 }
@@ -418,17 +414,35 @@ select {
     color: #2e3c72;
 }
 
-.allergen li {
+.allergen ul {
     color: #5a5a5a;
     line-height: 1.8em;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
 }
 
+#menu-content {
+    margin-top: 8em;
+    margin-bottom: 4em;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    position: fixed;
+    background: no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 
 /*------------------------------------------- Footer */
 
 
 #footer {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
 }
@@ -513,6 +527,24 @@ select {
         height: 420px;
     }
 
+    #menu-content {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+    
+    #breakfast-title {
+        font-size: 2.6em;
+    }
+
+    .price  {
+        clear: both;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .price::before {
+        content: "— ";
+    }
 
 }
 
