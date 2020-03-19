@@ -14,47 +14,7 @@
 <body>
     <!--------------------------------------------- Header --------------------------------------------->
 
-    <header>
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto nav-font text-uppercase">
-                    <li class="nav-item mr-4 text-right mt-3">
-                        <a class="nav-link" href="#our-story">Our Story</a>
-                    </li>
-
-                    <li class="nav-item text-right mr-4 mt-3">
-                        <a class="nav-link" href="#booking-section">Book A Table</a>
-                    </li>
-
-                    <li class="nav-item dropdown mr-4 text-right mt-3">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Our Menus
-                        </a>
-                        <div class="dropdown-menu bg-transparent border-0 rounded-0" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item text-right dropdown-hover-navy" href="#">Breakfast</a>
-                            <a class="dropdown-item text-right dropdown-hover-navy" href="#">Lunch</a>
-                            <a class="dropdown-item text-right dropdown-hover-navy" href="#">Dinner</a>
-                        </div>
-                    </li>
-
-                    <li class="nav-item mr-4 text-right mt-3">
-                        <a class="nav-link" href="#">Events</a>
-                    </li>
-
-                    <li class="nav-item mr-4 text-right mt-3">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        </nav> -->
-
+    <header>       
         <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white lower-nav-z-index">
             <div class="container-fluid">
                 <a class="navbar-brand mt-1" href="index.html"><img class="navbar-logo" src="assets/images/logo.svg"
@@ -101,7 +61,7 @@
         <!--------------------------------------------- Menu Section ------------------------------>
         <section class="container-fluid">
             <div class="row">
-                <div class="col-md-4 p-0">
+                <div class="col-md-6 p-0">
                     <div id="menu-carousel" class="carousel slide d-none d-md-block" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" style="background-image: url(assets/images/breakfast-avocado.jpg);">
@@ -114,9 +74,9 @@
                     </div>
                 </div>
 
-                <div id="menu-content" class="col-md-8 text-center">
-                    <div class="col-md-10 offset-md-1 bg-white">
-                        <h2 id="breakfast-title" class="h1 text-uppercase text-navy display-4 pt-5 letter-spacing">Breakfast</h2>
+                <div id="menu-content" class="col-md-6 text-center bg-white">
+                    <div class="col-12">
+                        <h2 id="breakfast-title" class="h1 text-uppercase text-navy display-4 pt-5 mt-4 letter-spacing">Breakfast</h2>
                         <img class="underline mb-2 col-md-5 " src="assets/images/underline_reverse.svg"
                             alt="Underline Image">
                         <h5 class="letter-spacing text-navy text-uppercase mb-4">Served from 9am - 11am</h5>
@@ -188,10 +148,10 @@
                         </ul>
                     </div>
                     <div class="container col-md-10 offset-md-1 py-3 mb-5 bg-white">
-                        <div class="allergen col-md-10 offset-md-1 py-3 mb-5 text-left">
+                        <div class="allergen py-3 mb-5 text-left">
                             <h2 class="text-center text-uppercase text-navy letter-spacing pb-2">Allergens</h2>
                             <div class="row text-white text-left font-weight-lighter px-2">
-                                <div class="col-md-4">
+                                <div class="col-12 col-lg-4">
                                     <ul>
                                         <li>1. Wheat (Gluten)</li>
                                         <li>2. Crustaceans</li>
@@ -200,7 +160,7 @@
                                         <li>5. Peanuts</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-12 col-lg-4">
                                     <ul>
                                         <li>6. Soybeans</li>
                                         <li>7. Milk</li>
@@ -209,7 +169,7 @@
                                         <li>10. Mustard</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-12 col-lg-4">
                                     <ul>
                                         <li>11. Sesame Seeds</li>
                                         <li>12. Sulphites</li>
@@ -220,13 +180,13 @@
                             </div>
                             <hr>
                             <div class="row text-center pt-1 light-blue">
-                                <div class="col-md-4">
+                                <div class="col-12 col-lg-4">
                                     <h5>V = Vegetarian</h5>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-12 col-lg-4">
                                     <h5>VV = Vegan</h5>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-12 col-lg-4">
                                     <h5>G = Gluten-Free</h5>
                                 </div>
                             </div>
@@ -235,8 +195,9 @@
                                 requirements please contact us so we can accommodate you.
                             </p>
                         </div>
-        </section>
-        </div>
+                    </div>
+                </div>
+            </div>            
         </section>
 
     </main>

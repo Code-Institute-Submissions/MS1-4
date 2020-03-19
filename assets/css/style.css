@@ -56,6 +56,10 @@ h6 {
     letter-spacing: 2px;
 }
 
+.dropdown-item:active {
+    background-color: #80a7ce;
+}
+
 /* =========== Display dropdown on hover =========== Src: https://codepen.io/beetnk/pen/LdVJBa  */
 
 .dropdown>.dropdown-menu {
@@ -154,7 +158,7 @@ a:hover {
 /* =============== Lines before/after Opening Hour Text =============== Src: https://stackoverflow.com/questions/23584120/line-before-and-after-title-over-image */
 
 #opening {
-    width: 70%;
+    max-width: 1110px;
     margin: .7em auto;
     overflow: hidden;
     text-align: center;
@@ -175,6 +179,8 @@ a:hover {
 #opening:after {
     margin: 0 -55% 0 .5em;
 }
+
+
 
 /*---------------------------------------------------------------- Image / Adjustments */
 
@@ -347,6 +353,30 @@ select {
 }
 
 
+/*------------------------------------------- Events Page */
+
+
+@supports (-webkit-text-stroke: 1.5px #2e3c72) {
+    .stroke-title {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      -webkit-text-stroke: 1.5px #2e3c72;
+      -webkit-text-fill-color: transparent;
+      line-height: .9em;
+      letter-spacing: .16em;
+      font-size: 140px;
+    }
+  }
+
+.event-date {
+    color: #ffffff;
+    background-color: #80a7ce;
+    letter-spacing: .5em;
+    display: inline-block;
+    font-family: inherit;
+}
+
+
+
 /*------------------------------------------- Newsletter */
 
 .newsletter-signup {
@@ -423,8 +453,7 @@ select {
 }
 
 #menu-content {
-    margin-top: 8em;
-    margin-bottom: 4em;
+    margin-top: 4em;
 }
 
 .carousel-item {
@@ -442,9 +471,7 @@ select {
 
 
 #footer {
-    position: sticky;
-    bottom: 0;
-    width: 100%;
+    position: absolute;
 }
 
 /*------------------------------------------- Media Queries */
@@ -469,6 +496,7 @@ select {
         height: 60px;
     }
 
+
 }
 
 @media only screen and (max-width: 1300px) {
@@ -480,6 +508,13 @@ select {
     .upper-nav-z-index {
         display: none;
     }
+
+    .stroke-title {
+        font-size: 11.5vw;
+        -webkit-text-stroke: 1.5px #2e3c72;
+        -webkit-text-fill-color: transparent;
+    } 
+   
 }
 
 @media only screen and (max-width: 992px) {
@@ -487,6 +522,12 @@ select {
         font-size: 12px;
         padding: 0;
     }
+    
+    .stroke-title {
+        font-size: 10vw;
+        -webkit-text-stroke: 1px #2e3c72;
+        -webkit-text-fill-color: transparent;
+    } 
 }
 
 @media only screen and (max-width: 768px) {
