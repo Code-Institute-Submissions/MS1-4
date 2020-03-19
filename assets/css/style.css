@@ -375,7 +375,9 @@ select {
     font-family: inherit;
 }
 
-
+.register {
+    margin-bottom: 6%;
+}
 
 /*------------------------------------------- Newsletter */
 
