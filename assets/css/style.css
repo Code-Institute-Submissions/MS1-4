@@ -285,6 +285,7 @@ a:hover {
 /* Solution for curved border edge remove https://stackoverflow.com/questions/5780109/removing-rounded-corners-from-a-select-element-in-chrome-webkit */
 
 select {
+    border-radius: 0;
     -webkit-appearance: none;
     -webkit-border-radius: 0px;
 }
