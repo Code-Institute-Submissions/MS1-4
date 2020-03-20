@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!--------------------------------------------- Header --------------------------------------------->
+    <!--==================================== Header ====================================-->
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent upper-nav-z-index">
@@ -22,7 +22,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto nav-font text-uppercase">
                         <li class="nav-item mr-4 text-right mt-3">
                             <a class="nav-link" href="#our-story">Our Story</a>
@@ -33,7 +33,7 @@
                         </li>
 
                         <li class="nav-item dropdown mr-4 text-right mt-3">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            <a class="nav-link dropdown-toggle" href="#" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Our Menus
                             </a>
@@ -99,9 +99,9 @@
         </nav>
     </header>
 
-    <main role="main">
+    <main>
 
-        <!--------------------------------------------- Jumbotron/Hero ---------------------------------->
+        <!--==================================== Jumbotron/Hero =======================================-->
 
         <div class="jumbotron jumbotron-fluid">
             <img class="hero-logo" src="assets/images/hero_logo.svg" alt="logo">
@@ -112,14 +112,13 @@
             </div>
         </div>
 
-        <!--------------------------------------------- Our Story Section ------------------------------>
+        <!--==================================== Our Story Section ====================================-->
 
-        <section id="our-story">
-            <article class="container text-center our-story">
-                <h2 class="h1 mb-3 text-uppercase text-navy display-4">Our Story</h2>
+        <section id="our-story" class="container text-center our-story">
+                <h1 class="mb-3 text-uppercase text-navy display-4">Our Story</h1>
                 <img class="underline mb-2 col-md-3" src="assets/images/underline.svg" alt="Underline">
-                <h1 class="h3 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Repudiandae dignissimos
-                    molestias.</h1>
+                <h2 class="h3 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Repudiandae dignissimos
+                    molestias.</h2>
                 <p class="lead lh-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae dignissimos
                     molestias
                     voluptate odit architecto, veniam dolores! Porro velit iste esse fuga dignissimos! Optio ad amet
@@ -132,80 +131,80 @@
                     explicabo dicta, quisquam omnis ullam ea nostrum, molestias officia asperiores. Animi ex omnis
                     quisquam officia.
                 </p>
-            </article>
-            <article class="container">
-                <img class="circle mb-2" src="assets/images/circle.svg" alt="Rotating Tagline">
+        </section>   
+        <article class="container">
+            <img class="circle mb-2" src="assets/images/circle.svg" alt="Rotating Tagline">
 
-                <div class="row mb-5 align-items-center">
-                    <div class="col-md-6">
-                        <img class="feature" alt="Restaurant Food Example" src="assets/images/our_chef.jpg">
-                    </div>
-                    <div class="col-md-6">
-                        <h2 class="article-heading h1 text-uppercase text-navy display-4">
-                            Our Chef
-                        </h2>
-                        <img class="underline mb-2" src="assets/images/underline_reverse.svg" alt="Underline">
-                        <p class="lead lh-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-                            dignissimos
-                            molestias
-                            voluptate odit architecto, veniam dolores! Porro velit iste esse fuga dignissimos! Optio ad
-                            amet
-                            laborum ducimus alias quae ipsa beatae libero, molestiae iste ea facere consequuntur ex?
-                            Exercitationem inventore veritati.
-                        </p>
-                        <p class="lead lh-3">Ut distinctio, facilis itaque aut aperiam ipsam hic
-                            sed quam. Quae inventore dolore quia, sequi, fugit illum harum doloribus voluptatibus ipsa
-                            architecto, fuga praesentium quam! Est nam corrupti reiciendis facere tempore libero dolores
-                            explicabo dicta, quisquam omnis ullam ea nostrum, molestias officia asperiores. Animi ex
-                            omnis
-                            quisquam officia.
-                        </p>
-                    </div>
+            <div class="row mb-5 align-items-center">
+                <div class="col-md-6">
+                    <img class="feature" alt="Restaurant Food Example" src="assets/images/our_chef.jpg">
                 </div>
-            </article>
-            <article class="container">
-                <div class="row mb-5 align-items-center">
-                    <div class="col-md-6">
-                        <h2 class="article-heading h1 text-uppercase text-navy display-4">
-                            Our Food
-                        </h2>
-                        <img class="underline mb-2" src="assets/images/underline_reverse.svg" alt="Underline">
-                        <p class="lead lh-3">Lorem ipsum dolor sit
-                            amet, consectetur adipisicing elit. Repudiandae dignissimos
-                            molestias
-                            voluptate odit architecto, veniam dolores! Porro velit iste esse fuga dignissimos! Optio ad
-                            amet
-                            laborum ducimus alias quae ipsa beatae libero, molestiae iste ea facere consequuntur ex?
-                            Exercitationem inventore veritati.
-                        </p>
-                        <p class="lead lh-3">Ut distinctio, facilis itaque aut aperiam ipsam hic
-                            sed quam. Quae inventore dolore quia, sequi, fugit illum harum doloribus voluptatibus ipsa
-                            architecto.
-                        </p>
-                        <div class="row dropdown mb-4">
-                            <a class="btn btn-lg dropdown-toggle nav-font text-uppercase text-navy rounded-0" href="#"
-                                id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                Our Menus
-                            </a>
-                            <div class="dropdown-menu border-0 pl-2 ml-2" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item text-left nav-font text-uppercase text-navy"
-                                    href="./breakfast.html">Breakfast</a>
-                                <a class="dropdown-item text-left nav-font text-uppercase text-navy"
-                                    href="./lunch.html">Lunch</a>
-                                <a class="dropdown-item text-left nav-font text-uppercase text-navy"
-                                    href="./dinner.html">Dinner</a>
-                            </div>
+                <div class="col-md-6">
+                    <h2 class="article-heading h1 text-uppercase text-navy display-4">
+                        Our Chef
+                    </h2>
+                    <img class="underline mb-2" src="assets/images/underline_reverse.svg" alt="Underline">
+                    <p class="lead lh-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+                        dignissimos
+                        molestias
+                        voluptate odit architecto, veniam dolores! Porro velit iste esse fuga dignissimos! Optio ad
+                        amet
+                        laborum ducimus alias quae ipsa beatae libero, molestiae iste ea facere consequuntur ex?
+                        Exercitationem inventore veritati.
+                    </p>
+                    <p class="lead lh-3">Ut distinctio, facilis itaque aut aperiam ipsam hic
+                        sed quam. Quae inventore dolore quia, sequi, fugit illum harum doloribus voluptatibus ipsa
+                        architecto, fuga praesentium quam! Est nam corrupti reiciendis facere tempore libero dolores
+                        explicabo dicta, quisquam omnis ullam ea nostrum, molestias officia asperiores. Animi ex
+                        omnis
+                        quisquam officia.
+                    </p>
+                </div>
+            </div>
+        </article>
+        <article class="container">
+            <div class="row mb-5 align-items-center">
+                <div class="col-md-6">
+                    <h2 class="article-heading h1 text-uppercase text-navy display-4">
+                        Our Food
+                    </h2>
+                    <img class="underline mb-2" src="assets/images/underline_reverse.svg" alt="Underline">
+                    <p class="lead lh-3">Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit. Repudiandae dignissimos
+                        molestias
+                        voluptate odit architecto, veniam dolores! Porro velit iste esse fuga dignissimos! Optio ad
+                        amet
+                        laborum ducimus alias quae ipsa beatae libero, molestiae iste ea facere consequuntur ex?
+                        Exercitationem inventore veritati.
+                    </p>
+                    <p class="lead lh-3">Ut distinctio, facilis itaque aut aperiam ipsam hic
+                        sed quam. Quae inventore dolore quia, sequi, fugit illum harum doloribus voluptatibus ipsa
+                        architecto.
+                    </p>
+                    <div class="row dropdown mb-4">
+                        <a class="btn btn-lg dropdown-toggle nav-font text-uppercase text-navy rounded-0" href="#"
+                            role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Our Menus
+                        </a>
+                        <div class="dropdown-menu border-0 pl-2 ml-2" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item text-left nav-font text-uppercase text-navy"
+                                href="./breakfast.html">Breakfast</a>
+                            <a class="dropdown-item text-left nav-font text-uppercase text-navy"
+                                href="./lunch.html">Lunch</a>
+                            <a class="dropdown-item text-left nav-font text-uppercase text-navy"
+                                href="./dinner.html">Dinner</a>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <img class="feature" alt="Restaurant Food Example" src="assets/images/our_food.jpg">
-                    </div>
                 </div>
-            </article>
-        </section>
+                <div class="col-md-6">
+                    <img class="feature" alt="Restaurant Food Example" src="assets/images/our_food.jpg">
+                </div>
+            </div>
+        </article>
+        
 
-        <!--------------------------------------------- Booking Section ------------------------------->
+        <!--========================================= Booking Section ======================================-->
 
         <section id="booking-section" class="container-fluid cover mt-5">
             <div class="row align-items-center h-100">
@@ -241,12 +240,12 @@
                             <div class="form-group col-md-4 pt-3">
                                 <input type="date"
                                     class="form-control border-top-0 border-right-0 border-left-0 rounded-0"
-                                    id="inputDate" placeholder="dd/mm/yyyy" required>
+                                    id="inputDate" required>
                             </div>
                             <div class="form-group col-md-4 pt-3">
                                 <select id="time"
                                     class="form-control border-top-0 border-right-0 border-left-0 rounded-0" required>
-                                    <option selected>Choose a time</option>
+                                    <option selected value="">Choose a time</option>
                                     <optgroup label="Early Bird">
                                         <option>5.00pm</option>
                                         <option>5.30pm</option>
@@ -266,9 +265,9 @@
                                 </select>
                             </div>
                             <div class="form-group col-md-4 pt-3">
-                                <select id="time"
+                                <select id="people"
                                     class="form-control border-top-0 border-right-0 border-left-0 rounded-0" required>
-                                    <option selected>Number of people</option>
+                                    <option selected value="">Number of people</option>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -311,10 +310,9 @@
             </div>
         </section>
 
-        <!--------------------------------------------- Map & Contact ----------------------------------------->
+        <!--==================================== Map & Contact ====================================-->
 
-        <section>
-            <div class="container-fluid">
+        <section class="container-fluid">
                 <div class="row h-100">
                     <div class="col-md-6 col-lg-4 text-center my-auto order-sm-12">
                         <h2 class="h1 text-uppercase text-navy display-4 pt-5">Contact Us</h2>
@@ -322,79 +320,76 @@
                         <div class="col-md-12 mb-3"><a href="mailto:hello@bluenote.ie"
                                 class="h3 link">hello@bluenote.ie</a>
                         </div>
-                        <div class="col-md-12"><a href="tel:+353 87 123 4567" class="h3 link">+353 87 123 4567</a>
+                        <div class="col-md-12"><a href="tel:+353871234567" class="h3 link">+353 87 123 4567</a>
                         </div>
                         <h3 class="mb-4 pt-4">High Street, Tralee, Co. Kerry</h3>
                         <ul class="list-inline social-links pt-5 mb-4">
                             <li class="list-inline-item h3 pr-3">
                                 <a target="_blank" href="#">
-                                    <i class="fab fa-facebook-f text-navy translate-y" aria-hidden=" true"></i>
+                                    <i class="fab fa-facebook-f text-navy translate-y" aria-hidden="true"></i>
                                     <span class="sr-only">Facebook</span>
                                 </a>
                             </li>
                             <li class="list-inline-item h3 pr-3">
                                 <a target="_blank" href="#">
-                                    <i class="fab fa-instagram text-navy translate-y" aria-hidden=" true"></i>
+                                    <i class="fab fa-instagram text-navy translate-y" aria-hidden="true"></i>
                                     <span class="sr-only">Instagram</span>
                                 </a>
                             </li>
                             <li class="list-inline-item h3 pr-3">
                                 <a target="_blank" href="#">
-                                    <i class="fab fa-twitter text-navy translate-y" aria-hidden=" true"></i>
+                                    <i class="fab fa-twitter text-navy translate-y" aria-hidden="true"></i>
                                     <span class="sr-only">Twitter</span>
                                 </a>
                             </li>
                             <li class="list-inline-item h3">
                                 <a target="_blank" href="#">
-                                    <i class="fab fa-youtube text-navy translate-y" aria-hidden=" true"></i>
+                                    <i class="fab fa-youtube text-navy translate-y" aria-hidden="true"></i>
                                     <span class="sr-only">YouTube</span>
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6 col-lg-8 map-responsive order-sm-1">
-                        <iframe src="https://maps.google.com/maps?q=tralee%20kerry&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <iframe src="https://maps.google.com/maps?q=tralee%20kerry&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
         </section>
 
     </main>
 
 
 
-    <!--------------------------------------------- Footer ----------------------------------------->
+    <!--=========================================== Footer ========================================-->
 
     <footer class="container-fluid pt-4 pb-1 bg-dark text-white">
         <div class="row text-center">
             <div class="col-md-4 text-md-left">
-                <p class="px-4"><i class="fa fa-map-marker-alt" aria-hidden="true"></i><span>
-                        <small>&nbsp 125 Main Street, Tralee, Co. Kerry</small></span></p>
+                <p class="px-4"><i class="fa fa-map-marker-alt pr-2" aria-hidden="true"></i><small>125 Main Street, Tralee, Co. Kerry</small></p>
             </div>
             <div class="col-md-4 text-md-center">
                 <ul class="list-inline social-links">
                     <li class="list-inline-item h4">
                         <a target="_blank" href="#">
-                            <i class="fab fa-facebook-f text-white pr-3 translate-y" aria-hidden=" true"></i>
+                            <i class="fab fa-facebook-f text-white pr-3 translate-y" aria-hidden="true"></i>
                             <span class="sr-only">Facebook</span>
                         </a>
                     </li>
                     <li class="list-inline-item h4">
                         <a target="_blank" href="#">
-                            <i class="fab fa-instagram text-white pr-3 translate-y" aria-hidden=" true"></i>
+                            <i class="fab fa-instagram text-white pr-3 translate-y" aria-hidden="true"></i>
                             <span class="sr-only">Instagram</span>
                         </a>
                     </li>
                     <li class="list-inline-item h4">
                         <a target="_blank" href="#">
-                            <i class="fab fa-twitter text-white pr-3 translate-y" aria-hidden=" true"></i>
+                            <i class="fab fa-twitter text-white pr-3 translate-y" aria-hidden="true"></i>
                             <span class="sr-only">Twitter</span>
                         </a>
                     </li>
                     <li class="list-inline-item h4">
                         <a target="_blank" href="#">
-                            <i class="fab fa-youtube text-white translate-y" aria-hidden=" true"></i>
+                            <i class="fab fa-youtube text-white translate-y" aria-hidden="true"></i>
                             <span class="sr-only">YouTube</span>
                         </a>
                     </li>
