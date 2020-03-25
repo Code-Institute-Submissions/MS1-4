@@ -48,7 +48,6 @@ h6 {
     background-color: #ffffff;
 }
 
-
 /*---------------------------------------------------------------------------- Nav */
 
 .nav-font {
@@ -146,7 +145,6 @@ a:hover {
 
 /* ----------------------------- */
 
-
 .translate-y {
     transition: transform .2s ease-in-out;
 }
@@ -180,10 +178,7 @@ a:hover {
     margin: 0 -55% 0 .5em;
 }
 
-
-
 /*---------------------------------------------------------------- Image / Adjustments */
-
 
 .underline {
     width: 50%;
@@ -278,9 +273,7 @@ a:hover {
     background: transparent;
 }
 
-
 /*------------------------------------------- Booking Section */
-
 
 /* Solution for curved border edge remove https://stackoverflow.com/questions/5780109/removing-rounded-corners-from-a-select-element-in-chrome-webkit */
 
@@ -291,7 +284,6 @@ select {
 }
 
 /* ----------------------------- */
-
 
 .booking-background {
     background-color: white;
@@ -318,7 +310,6 @@ select {
 .light-blue {
     color: #80a7ce;
 }
-
 
 /*------------------------------------------- Events Gallery */
 
@@ -353,9 +344,7 @@ select {
     color: #2e3c72;
 }
 
-
 /*------------------------------------------- Events Page */
-
 
 @supports (-webkit-text-stroke: 1.5px #2e3c72) {
     .stroke-title {
@@ -380,6 +369,12 @@ select {
     margin-bottom: 6%;
 }
 
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: #80a7ce;
+    border-color: #80a7ce;
+}
 /*------------------------------------------- Newsletter */
 
 .newsletter-signup {
@@ -432,9 +427,7 @@ select {
     padding: 0;
 }
 
-
 /*------------------------------------------- Menu Page */
-
 
 .price {
     float: right;
@@ -472,7 +465,6 @@ select {
   }
 
 /*------------------------------------------- Footer */
-
 
 #footer {
     position: absolute;
@@ -590,11 +582,12 @@ select {
     .price::before {
         content: "— ";
     }
+    
+    #contact-section h2 {
+        font-size: 2.5em;
+    }
 
 }
-
-
-
 
 @media only screen and (max-width: 576px) {
     .lower-nav-z-index {
