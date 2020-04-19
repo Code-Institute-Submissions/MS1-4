@@ -215,7 +215,6 @@ a:hover {
 /* =============== Rotating Image =============== Src: https://jsfiddle.net/gionaf/Ugc5g/ */
 .circle {
     position: absolute;
-    left: 23%;
     width: 180px;
     height: 180px;
     margin: -90px 0 0 -90px;
@@ -372,7 +371,7 @@ select {
       -webkit-text-fill-color: transparent;
       line-height: .9em;
       letter-spacing: .16em;
-      font-size: 140px;
+      font-size: 110px;
     }
   }
 
@@ -382,6 +381,10 @@ select {
     letter-spacing: .5em;
     display: inline-block;
     font-family: inherit;
+}
+
+.card-min-width {
+    min-width: 18em;
 }
 
 .register {
@@ -402,7 +405,6 @@ select {
 #pagination a span:hover {
     text-decoration: line-through;
 }
-
 
 /*------------------------------------------- Newsletter */
 
@@ -493,6 +495,7 @@ select {
     background-size: cover;
   }
 
+
 /*------------------------------------------- Footer */
 
 #footer {
@@ -535,7 +538,7 @@ select {
     }
 
     .stroke-title {
-        font-size: 11.5vw;
+        font-size: 8vw;
         -webkit-text-stroke: 1.5px #2e3c72;
         -webkit-text-fill-color: transparent;
     } 
@@ -549,10 +552,15 @@ select {
     }
     
     .stroke-title {
-        font-size: 10vw;
+        font-size: 8vw;
         -webkit-text-stroke: 1px #2e3c72;
         -webkit-text-fill-color: transparent;
     } 
+
+    ul li .light-blue {
+        display: block;
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
@@ -584,6 +592,10 @@ select {
 
     .navbar-logo {
         height: 40px;
+    }
+
+    .jumbotron {
+        background-image: url(../images/blue-room-hero-image-mobile.jpg);
     }
 
     /* --- Fix Map Display on Mobile -- */
