@@ -49,19 +49,19 @@ Wireframes were created using [Whimsical](https://whimsical.com/) wireframe edit
 
 **Desktop**
 
-* [Home Page](https://whimsical.com/)
-* [Menu Page](https://whimsical.com/)
-* [Events Page](https://whimsical.com/)
-* [Single Event Page](https://whimsical.com/)
-* [Contact Page](https://whimsical.com/)
+* [Home Page](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/desktop-home.png)
+* [Menu Pages](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/desktop-menu.png)
+* [Events Page](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/desktop-events.png)
+* [Single Event Pages](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/desktop-event-page.png)
+* [Contact Page](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/desktop-contact.png)
 
 **Mobile**
 
-* [Home Page](https://whimsical.com/)
-* [Menu Page](https://whimsical.com/)
-* [Events Page](https://whimsical.com/)
-* [Single Event Page](https://whimsical.com/)
-* [Contact Page](https://whimsical.com/)
+* [Home Page](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/mobile-home.png)
+* [Menu Pages](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/mobile-menu.png)
+* [Events Page](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/mobile-events.png)
+* [Single Event Pages](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/mobile-event.png)
+* [Contact Page](https://github.com/JustinMcC066/MS1/blob/master/assets/wireframes/mobile-contact.png)
 
 
 ### Surface
