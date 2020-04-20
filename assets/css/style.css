@@ -15,7 +15,6 @@ body {
     position: relative;
 }
 
-
 h1,
 h2,
 h3,
@@ -54,7 +53,7 @@ p {
     background-color: #ffffff;
 }
 
-/*---------------------------------------------------------------------------- Nav */
+/*--------------------------------------------------------------------------- Nav */
 
 .nav-font {
     font-family: 'Belleza', sans-serif;
@@ -99,7 +98,6 @@ p {
     text-decoration: line-through;
 }
 
-
 /*----------------------------------------------- Special paddings/margins/text/images */
 
 .lower-nav-z-index {
@@ -122,7 +120,6 @@ p {
 .lh-3 {
     line-height: 1.7em;
 }
-
 
 .letter-spacing {
     letter-spacing: 1.5px;
@@ -216,9 +213,8 @@ a:hover {
     background-size: cover;
 }
 
-
-
 /* =============== Rotating Image =============== Src: https://jsfiddle.net/gionaf/Ugc5g/ */
+
 .circle {
     position: absolute;
     width: 180px;
@@ -290,7 +286,6 @@ a:hover {
     background: transparent;
 }
 
-
 #hero-image {
     height: 90vh;
     width: 100%;
@@ -328,7 +323,6 @@ select {
     border-color: #FFFFFF;
     box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 2px #80a7ce;
     color: rgba(90, 90, 90, .9);
-
 }
 
 .light-blue {
@@ -338,6 +332,7 @@ select {
 /*------------------------------------------- Events Gallery */
 
 /* ============== Fix image responsiveness in cards Source: https://stackoverflow.com/questions/37287153/how-to-get-images-in-bootstraps-card-to-be-the-same-height-width*/
+
 .embed-responsive {
     object-fit: cover;
 }
@@ -379,7 +374,7 @@ select {
       letter-spacing: .16em;
       font-size: 110px;
     }
-  }
+}
 
 .event-date {
     color: #ffffff;
@@ -501,7 +496,6 @@ select {
     background-size: cover;
   }
 
-
 /*------------------------------------------- Footer */
 
 #footer {
@@ -529,7 +523,6 @@ select {
     .navbar-logo {
         height: 60px;
     }
-
 
 }
 
