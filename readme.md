@@ -1,6 +1,6 @@
 # Milestone One
 
-### Code Institute - User-Centric Frontend Development Milestone Project
+### Code Institute: User-Centric Frontend Development Milestone Project
 
 ![The Blue Note Logo](https://justinmcc066.github.io/MS1/assets/images/logo.svg)
 
@@ -15,9 +15,9 @@ The purpose of this website is to inform both new and returning customers of the
 
 The goal of this website is to:
 
-* Provide potential customers with important information to promote the work and ethos of the restaurant.
+* Provide potential customers with important information and promote the work and ethos of the restaurant.
 
-* Increase the awareness around the restaurant and the effort that goes in to sourcing and growing the igredients.
+* Increase the awareness around the restaurant and the effort that goes in to sourcing and growing the ingredients.
 
 * Provide a platform for customers to book online and reserve spaces for upcoming events held at the restaurant.
 
@@ -66,7 +66,7 @@ Wireframes were created using [Whimsical](https://whimsical.com/) wireframe edit
 
 ### Surface
 
-A two colour blue colour palette was used throughout playing on the restaurant name, The Blue Note. The refined colour palette allows the food imagery to stand out.
+A two colour blue palette was used throughout playing on the restaurant name, The Blue Note. The refined colour palette allows the food imagery to stand out.
 
 Fonts used are:
 * [Belleza](https://fonts.google.com/specimen/Belleza) - Navigation/Dropdown
@@ -81,39 +81,39 @@ All fonts (except for Gorgia) are linked from [Google Fonts](https://fonts.googl
 
 Features of this site include:
 
-### Navigation
+#### Navigation
 The navbar contains the restaurant logo and five main links and three dropdown links. Two of the main five links are anchor links leading to sections on the home page.
 
-### Online Booking Form
+#### Online Booking Form
 Reservations can be made online for any number of guests with early bird time slots available also.
 
-### Menu List
+#### Menu List
 Three menus have been provided covering all dishes available at the restaurant - Breakfast, Lunch and Dinner. The items include a description of the dish, allergen information, dietary information and pricing.
 
-### Image Carousel
-Each menu (Breakfast, Lunch and Dinner) has a revolving image carousel. This feature enhances the experience of the menu by allowing the visitor to see the dishes available at the restaurant.
+#### Image Carousel
+Each menu (Breakfast, Lunch and Dinner) has a revolving image carousel. This feature enhances the experience of the menu by allowing the visitor to see a selection of the dishes available at the restaurant.
 
-### Event Gallery
+#### Event Gallery
 Upcoming events gallery showcases the events held weekly at the restaurant with a short introduction. Each event has it's own dedicated page.
 
-### Single Event Page
+#### Single Event Page
 Dedicated event pages display all information regarding the event, along with imagery and the option to register for the event.
 
-### Event Registration
+#### Event Registration
 Any visitor can register for the weekly events by submitting their email and number of persons attending - limited to four.
 
-### Newsletter Sign-Up
+#### Newsletter Sign-Up
 Visitors can sign up to a newsletter to keep up to date with restaurant news and upcoming events.
 
-### Contact Form
+#### Contact Form
 Visitors can contact the restaurant via the contact page using the contact form for any further information or queries.
 
-### Footer
+#### Footer
 The footer dislays links to the restaurants social media accounts, the restaurant location and site author information.
 
 
 ### Features Left to Implement
-A feature I would like to implement would be an image change on hover for the food menus. This would take the place of the image carousel and would allow the visitor to selevtively view an image of each listed dish.
+A feature I would like to implement would be an image change on hover for the food menus. This would take the place of the image carousel and would allow the visitor to selevtively view an image of each listed dish on hover.
 
 
 
@@ -162,7 +162,7 @@ Used to deploy the site.
 The site was tested across multiple browsers - Chrome, Safari, Firefox and Opera to ensure each page displayed correctly.
 
 ### Responsiveness / Mobile-Friendly
-The site's reponsiveness was continuously monitored during the development stage using Chromes *Dev Tools*. Further testing was done using [Responsive Test Tool](http://responsivetesttool.com/) which allowed for testing on Samsung, LG, Nexus and Google Pixel screen sizes - no errors were noted. 
+The site's reponsiveness was continuously monitored during the development stage using Chromes *Dev Tools*. Further testing was done using [Responsive Test Tool](http://responsivetesttool.com/) which allowed for testing on Samsung, LG, Nexus and Google Pixel screen sizes - no errors were recorded. 
 
 ### W3C Validation
 All html pages were checked using [W3C Markup Validation](https://validator.w3.org/) and passed with no errors.
@@ -187,7 +187,7 @@ The CSS file was checked using [W3C CSS Validation](https://jigsaw.w3.org/css-va
   * A newsletter sign-up form section is featured on the event page.
 
 6. As a new customer I want to know about upcoming events held at the restaurant.
-  * A newsletter sign-up form section is featured on the event page.
+  * An even gallery displays upcoming and past events for customers to view. Each event has its own dedicated page with further information.
 
 7. As a new customer who is vegan/vegetarian I want to know if the restaurant has options for me.
   * Vegan, vegetarian and gluten-free information is displayed alongside each menu item.
