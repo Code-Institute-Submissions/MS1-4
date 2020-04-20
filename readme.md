@@ -69,9 +69,9 @@ Wireframes were created using [Whimsical](https://whimsical.com/) wireframe edit
 A two colour blue colour palette was used throughout playing on the restaurant name, The Blue Note. The refined colour palette allows the food imagery to stand out.
 
 Fonts used are:
-* [Belleza](https://fonts.google.com/specimen/Cormorant+Garamond) - Navigation/Dropdown
+* [Belleza](https://fonts.google.com/specimen/Belleza) - Navigation/Dropdown
 * [Cormorant Garamond](https://fonts.google.com/specimen/Cormorant+Garamond) - Headings
-* [Source Sans](https://fonts.google.com/specimen/Cormorant+Garamond) - Body Copy
+* [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) - Body Copy
 * Georgia - Event Titles
 
 All fonts (except for Gorgia) are linked from [Google Fonts](https://fonts.google.com/) in the Style Sheet.
