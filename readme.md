@@ -184,7 +184,7 @@ Browser compatibility was also tested using the Lambdatest App.
 ***Notes:***
 * Border/stroke outline of text does not work on IE browser. This only affects the design and not the functioanlity of the site.
 * SVG images may not work on older versions of browsers.
-* Date input type does not display date picker on Safari. Placeholder text has been used as a fallback to indicate to the visitor to type the date in the correct format: dd/mm/yyyy.
+* Date input type does not display date picker on Safari. A polyfill was attempted but not successfully implemented.
 
 ### Responsiveness / Mobile-Friendly
 The site's reponsiveness was continuously monitored during the development stage using Chromes *Dev Tools*. Further testing was done using [Responsive Test Tool](http://responsivetesttool.com/) which allowed for testing on additional devices - no errors were recorded.
